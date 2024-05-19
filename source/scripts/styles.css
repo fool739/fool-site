@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+     @viewport {
+        width: auto;
+        height: auto;
+        orientation: portrait;
+      }
+
+      body {
+        background-color:#000000;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+        margin-top:1%;
+      }
+
+      div {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        text-align: center;
+        color:#c3c3c3;
+
+      }
+
+      div:hover {
+        color:#dddcdc
+      }
+    
+      h1 {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        text-align: center;
+        color:#c3c3c3;
+      }
+
+      ol {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: left;
+        color:#c3c3c3;
+      }
+      .tw {
+        width: 100%;
+        padding-left: 100%;
+        background-color: inherit;
+    }
+    
+    @keyframes ticker {
+        100% {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+    /* Ticker Settings */
+    .tm {
+        display: inline-block;
+        white-space: nowrap;
+        padding-right: 100%;
+        animation-timing-function: linear;
+        animation: ticker 25s infinite;
+       
+    }
+    .tm:hover {
+        animation-play-state: paused;
+    }
+    .ti {
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: underline;
+        text-decoration-color: #716c65  ;
+    }
+
+    .ti:hover {
+      color: #716c65
+    }
