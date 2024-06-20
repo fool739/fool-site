@@ -45,5 +45,14 @@
       a:hover {
         color:#676464
       }
+
+      p {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 300;
+        font-size: 4%;
+        white-space: pre;
+        line-height: normal;
+        text-align: inherit;
+      }
   
   
